@@ -1,7 +1,6 @@
 # US Airplane Delays
 
-By: Dea Gloria A. N.
-
+#### By: Dea Gloria A. N.
 ------
 
 This project was made as a part of Coursework requirement for ST2195 - Programming for Data Science at University of London.
