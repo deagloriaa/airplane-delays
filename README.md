@@ -77,7 +77,7 @@ In general, the number of people flying between locations does not tremendously 
 
 The first step that we will take to detect the cascading failure is to check the top 5 routes that have the greatest number of flights, assuming that these airports are busier than the others. We observe that the route with highest number of flights occurs from Los Angeles International Airport (LAX) to San Diego International Airport (SAN) and the second top route is the other way round. Therefore, we will inspect flights that depart from or arrive to LAX or SAN as a sample case.
 
-![Sample routes]((https://github.com/deagloriaa/airplane-delays/blob/main/flight_LAX_SAN.png)
+![Sample routes](https://github.com/deagloriaa/airplane-delays/blob/main/flight_LAX_SAN.png)
 
 The next step is to apply the filter on the origin and destination. Additionally, we choose the arrival delay to be greater than 60 minutes as we are trying to capture serious delays instead of little delay time. Then we take relevant columns such as year, month, day, the plane’s unique identifier (TailNum), expected and real departure time, expected and real arrival time, the departure delay, the arrival delay, origin, and destination. For sampling purpose, we will observe in the first ten rows and see if there’s a delay created in one location causing a continuous delay in the next location.
 
